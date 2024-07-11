@@ -11,6 +11,7 @@
 		6AB1AA6F2C3F756200C6209D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB1AA6E2C3F756200C6209D /* ContentView.swift */; };
 		6AB1AA712C3F756400C6209D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB1AA702C3F756400C6209D /* Assets.xcassets */; };
 		6AB1AA742C3F756400C6209D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB1AA732C3F756400C6209D /* Preview Assets.xcassets */; };
+		6AB1AA7C2C3F759300C6209D /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 6AB1AA7B2C3F759300C6209D /* users.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		6AB1AA702C3F756400C6209D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AB1AA732C3F756400C6209D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6AB1AA752C3F756400C6209D /* SwiftyTable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftyTable.entitlements; sourceTree = "<group>"; };
+		6AB1AA7B2C3F759300C6209D /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		6AB1AA6B2C3F756200C6209D /* SwiftyTable */ = {
 			isa = PBXGroup;
 			children = (
+				6AB1AA7B2C3F759300C6209D /* users.json */,
 				6AB1AA6C2C3F756200C6209D /* SwiftyTableApp.swift */,
 				6AB1AA6E2C3F756200C6209D /* ContentView.swift */,
 				6AB1AA702C3F756400C6209D /* Assets.xcassets */,
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AB1AA7C2C3F759300C6209D /* users.json in Resources */,
 				6AB1AA742C3F756400C6209D /* Preview Assets.xcassets in Resources */,
 				6AB1AA712C3F756400C6209D /* Assets.xcassets in Resources */,
 			);
